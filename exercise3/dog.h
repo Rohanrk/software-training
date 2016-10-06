@@ -2,11 +2,11 @@
 
 #include <string>
 
-#include "herbivore.h"
+#include "carnivore.h"
 
-class Human : public Herbivore {
+class Dog : public Carnivore {
  public:
-     Human();
+     Dog();
      std::string Name() const override;
 
      std::string Greeting() const override;
